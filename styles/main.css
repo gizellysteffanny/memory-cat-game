@@ -1,0 +1,57 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   zoom: 0.9;
+}
+
+#game {
+   display: flex;
+   flex-wrap: wrap;
+
+   margin: 0 auto 32px auto;
+   height: 450px;
+   width: 870px;
+}
+
+img:not(.score) {
+   width: 200px;
+   height: auto;
+   border-radius: 8px;
+   margin-right: 8px;
+   margin-bottom: 8px;
+   cursor: pointer;
+}
+
+div.score-container {
+   position: relative;
+   width: 870px;
+   margin: 16px auto;
+}
+
+svg {
+   width: 200px;
+   height: auto;
+}
+
+#gameWon {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   color: #ef5da8;
+   font-size: 40px;
+}
+
+#score {
+   position: absolute;
+   color: #ef5da8;
+   font-size: 32px;
+   font-family: Arial Narrow;
+   top: 28px;
+   left: 104px;
+}
